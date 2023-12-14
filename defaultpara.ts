@@ -37,3 +37,30 @@ getValuenewthree(20, 30);
 getValuenewthree(undefined, 30);
 
 // Output: 110 130 50 40
+
+let getValuenewfour = function (val = 10, bonus = val * 0.1) {
+  console.log(val + bonus);
+  console.log(arguments.length);
+};
+getValuenewfour();
+getValuenewfour(20);
+getValuenewfour(20, 30);
+getValuenewfour(undefined, 30);
+
+// Output : 11
+// 0
+// 22
+// 1
+// 50
+// 2
+// 40
+// 2
+
+// let getValuenewfive = function (val = bonus, bonus = 0.1) {
+//   console.log(val + bonus);
+//   console.log(arguments.length);
+// };
+
+// getValuenewfive();
+
+// Output: ReferenceError: Cannot access 'bonus' before initialization
