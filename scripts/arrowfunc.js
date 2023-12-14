@@ -16,5 +16,5 @@ console.log(getValArrow());
 console.log(getValArrowReturn());
 console.log(getValArrowPara(10, 20));
 console.log(getValArrowPara("10", "20"));
-console.log(typeof getValArrowPara);
-console.log(typeof getValArrowPara(10, 20));
+console.log(typeof getValArrowPara); // Gives function
+console.log(typeof getValArrowPara(10, 20)); // Gives number
