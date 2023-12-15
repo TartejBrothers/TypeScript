@@ -33,3 +33,13 @@ let message = "List of colors";
 colors(message, "red");
 colors(message, "red", "blue");
 colors(message, "red", "blue", "green");
+// Output:
+// List of colors
+// red
+// List of colors
+// red
+// blue
+// List of colors
+// red
+// blue
+// green
