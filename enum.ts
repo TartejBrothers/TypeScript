@@ -22,7 +22,17 @@ console.log(sizenew.Small);
 console.log(sizenew.Medium);
 console.log(sizenew.Large);
 
-// Output:  
+// Output:
 // 0
 // 4
 // 5
+
+enum sizenew1 {
+  Small = 1,
+  Medium = "small",
+  Large = "l",
+}
+
+console.log(sizenew1.Small);
+console.log(sizenew1.Medium);
+console.log(sizenew1.Large);
