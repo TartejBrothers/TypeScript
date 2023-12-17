@@ -1,0 +1,10 @@
+"use strict";
+console.log(1 /* sizeconst.Small */);
+console.log(2 /* sizeconst.Medium */);
+console.log(3 /* sizeconst.Large */);
+console.log(0 /* sizeconstnew.Small */);
+console.log(4 /* sizeconstnew.Medium */);
+console.log(5 /* sizeconstnew.Large */);
+console.log(1 /* sizeconstnew1.Small */);
+console.log("small" /* sizeconstnew1.Medium */);
+console.log("l" /* sizeconstnew1.Large */);
