@@ -10,3 +10,5 @@ function checkType(weight) {
 }
 console.log(checkType(2));
 console.log(checkType("2kg"));
+// Output: 1
+// 1
